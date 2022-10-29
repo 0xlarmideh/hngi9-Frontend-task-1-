@@ -1,9 +1,10 @@
 import './App.css'
+import MainContents from './main-contents'
 
 export default function App() {
   return (
     <main>
-      React ⚛️ + Vite ⚡ + Replit 🌀
+      <MainContents />
     </main>
   )
 }
