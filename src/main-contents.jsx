@@ -2,7 +2,7 @@ export default function MainContents() {
   return (
     <div className="main-contents">
       <div className="profile-section">
-        <img id="profile__img" src="./public/avi.jpg"></img>
+        <img id="profile__img" src="/avi.jpg"></img>
         <div id="profile__name">Abdulhameed Busari</div>
       </div>
       <div className="links-section">

@@ -56,7 +56,10 @@ main {
 .main-contents {
   padding: 0;
 } 
-  
+
+  .links-section {
+  gap: 2.4rem;
+}
   .links {
   padding: 2.4rem 3.2rem;
   font-size: 1.4rem;
