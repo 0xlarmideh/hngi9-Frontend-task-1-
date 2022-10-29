@@ -31,15 +31,36 @@ main {
 }
 
 .links {
-  display:block;
   padding: 2.4rem 3.2rem;
   font-size: 1.4rem;
   background: #EAECF0;
   border: 1px solid #EAECF0;
   border-radius: 8px;
-  font-style: normal;
   font-weight: 500;
   font-size: 1.8rem;
   color: #101828;
   text-decoration:none;
+}
+
+/*Big smartphones [426px -> 600px]*/
+@media only screen and (max-width: 600px){
+	main {
+  padding: 6.4rem 1.6rem;
+}
+
+  #profile__name {
+  font-size: 1.8rem;
+  margin: 2.4rem 0 3.2rem 0
+}
+
+.main-contents {
+  padding: 0;
+} 
+  
+  .links {
+  padding: 2.4rem 3.2rem;
+  font-size: 1.4rem;
+  border-radius: 8px;
+  font-size: 1.4rem;
+}
 }
