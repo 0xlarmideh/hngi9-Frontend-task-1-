@@ -1,4 +1,45 @@
 main {
   text-align: center;
+  font-size:10px;
+  padding: 6.4rem 11.2rem;
+  font-family: 'Inter', sans-serif;
 /*   vertical-align: center; */
+}
+
+.main-contents {
+  padding: 0 3.2rem;
+} 
+
+#profile__img {
+  width: 120px;
+  height:120px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+#profile__name {
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 3rem;
+  margin: 2.4rem 0 5.6rem 0
+}
+
+.links-section {
+  display: flex;
+  flex-direction:column;
+  gap: 3.2rem;
+}
+
+.links {
+  display:block;
+  padding: 2.4rem 3.2rem;
+  font-size: 1.4rem;
+  background: #EAECF0;
+  border: 1px solid #EAECF0;
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.8rem;
+  color: #101828;
+  text-decoration:none;
 }
