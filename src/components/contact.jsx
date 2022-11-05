@@ -1,7 +1,7 @@
 export default function Contact () {
 
   return (
-    <section className="contact-page">
+    <div className="checking"><section className="contact-page">
       <h1 id="contact-h1">Contact me</h1>
       <p id="contact-description">Hi there, contact me to ask me about anything you have in mind.</p>
       <div className="contact-form-container">
@@ -31,6 +31,7 @@ export default function Contact () {
           
         </form>
       </div>
-    </section>
+    </section></div>
+    
   )
 }
