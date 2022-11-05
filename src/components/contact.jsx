@@ -1,6 +1,8 @@
+import Footer from './footer.jsx'
+
 export default function Contact () {
 
-  return (
+  return (<>
     <div className="checking"><section className="contact-page">
       <h1 id="contact-h1">Contact me</h1>
       <p id="contact-description">Hi there, contact me to ask me about anything you have in mind.</p>
@@ -22,6 +24,7 @@ export default function Contact () {
           <div className="grid-items">
               <label for="message">Message</label><br></br>
               <textarea type="text" id="message" name="message" placeholder="Send me a message and I'll reply you as soon as possible..."></textarea>
+            <div id="error__text">Please enter a message</div>
           </div>
           <div className="checkbox">
               <input type="checkbox" id="checkbox" name="checkbox"></input>
@@ -32,6 +35,9 @@ export default function Contact () {
         </form>
       </div>
     </section></div>
+    <Footer />
+  </>
+    
     
   )
 }
