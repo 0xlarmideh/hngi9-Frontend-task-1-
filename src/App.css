@@ -108,6 +108,7 @@ textarea {
 }
 
 .grid-items {
+  
 }
 
 #message {
@@ -147,7 +148,7 @@ textarea {
 
   #profile__name {
   font-size: 1.8rem;
-  margin: 2.4rem 0 3.2rem 0
+  margin: 2.4rem 0 3.2rem 0;
 }
 
 .main-contents {
@@ -157,10 +158,22 @@ textarea {
   .links-section {
   gap: 2.4rem;
 }
+
   .links {
   padding: 2.4rem 3.2rem;
   font-size: 1.4rem;
   border-radius: 8px;
   font-size: 1.4rem;
 }
+
+  .checking {
+  margin: 0;
+  padding: 64px 16px;
+  width: 100%;
+}
+
+  .grid-2 {
+  display: block;
+}
+  
 }
