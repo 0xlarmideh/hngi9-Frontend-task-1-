@@ -24,6 +24,10 @@ main {
   margin: 2.4rem 0 5.6rem 0
 }
 
+#slack {
+  display:none;
+}
+
 .links-section {
   display: flex;
   flex-direction:column;
